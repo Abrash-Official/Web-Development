@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 28px;
+    border: 0px solid white;
+    box-shadow: 0 0 10px black,0 0 15px black;
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#s-b{
+    color: skyblue;
+    text-shadow: 0 0 30px rgb(0, 183, 255),0 0 30px rgb(0, 183, 255);
+}
+a#s-b:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-o{
+    color: orange;
+    text-shadow: 0 0 30px rgb(180, 144, 99),0 0 30px rgb(180, 144, 99);
+}
+a#l-o:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-p{
+    color: rgb(250, 76, 250);
+    text-shadow: 0 0 30px purple,0 0 30px purple;
+}
+a#l-p:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-y{
+    color: yellow;
+    text-shadow: 0 0 30px yellow,0 0 30px yellow;
+}
+a#l-y:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+body{
+    background-image: url("3.Project.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    width: 200px;
+    height: 140px;
+    margin: 50px 0 0 100px;
+    text-align: center;
+    text-shadow: 0 0 20px skyblue,0 0 40px skyblue;
+}
+img.project{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black, 0 0 40px black;
+}
+@media(max-width: 321px){
+    a{
+        font-size: medium;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    div{
+        margin-left: 65px;
+    }
+}
+@media(min-width: 321px) and (max-width: 376px){
+    a{
+        font-size: large;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    div{
+        margin-left: 90px;
+        margin-top: 50%;
+    }
+}
+@media(min-width: 376px) and (max-width: 426px){
+    a{
+        font-size: large;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    div{
+        margin-left: 30px;
+    }
+}

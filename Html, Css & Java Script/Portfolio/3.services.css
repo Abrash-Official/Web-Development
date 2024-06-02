@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: linear-gradient(307deg, transparent 0%, transparent 10%,rgba(190, 190, 190,0.04) 10%, rgba(190, 190, 190,0.04) 64%,transparent 64%, transparent 100%),linear-gradient(118deg, transparent 0%, transparent 11%,rgba(190, 190, 190,0.04) 11%, rgba(190, 190, 190,0.04) 31%,transparent 31%, transparent 100%),linear-gradient(73deg, transparent 0%, transparent 22%,rgba(190, 190, 190,0.04) 22%, rgba(190, 190, 190,0.04) 90%,transparent 90%, transparent 100%),linear-gradient(156deg, transparent 0%, transparent 51%,rgba(190, 190, 190,0.04) 51%, rgba(190, 190, 190,0.04) 97%,transparent 97%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 5px 15px;
+    box-shadow: 0 0 20px black,0 0 40px black ;
+}
+.navbar{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+#bar{
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    color: red;
+    display: none;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    right: 20px;
+    width: 200px;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 0%;
+    padding-right: 0%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px black,0 0 40px black;
+    display: none;
+}
+#cross{
+    padding: 5px;
+    border-radius: 90px;
+    border: 2px solid white;
+    color: red;
+    transform: rotate(90deg);
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.service{
+    margin-top: 20px;
+    font-size: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-decoration: underline;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.same{
+    border: 1.5px solid red;
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    backdrop-filter: blue(10px);
+    box-shadow: 0 0 20px red,0 0 30px black;
+}
+.same,h2{
+    margin-bottom: 10px;
+}
+i{
+    color: red;
+    text-shadow: 0 0 10px black,0 0 20px black;
+}
+h2{
+    text-decoration: underline;
+}
+h5{
+    font-size: 30px;
+}
+@media (max-width:321px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .data{
+        font-size: 15px;
+        display: grid;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .same{
+        width: 70%;
+        margin-left: 30px;
+    }
+    h5{
+        font-size: 15px;
+    }
+}
+@media (min-width:321px) and (max-width:376px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .data{
+        font-size: 15px;
+        display: grid;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .same{
+        width: 70%;
+        margin-left: 35px;
+    }
+    h5{
+        font-size: 15px;
+    }
+}
+@media (min-width:376px) and (max-width:426px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .data{
+        font-size: 15px;
+        display: grid;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .same{
+        width: 70%;
+        margin-left: 40px;
+    }
+    h5{
+        font-size: 15px;
+    }
+}

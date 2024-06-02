@@ -1,0 +1,207 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: linear-gradient(90deg, transparent 0%, transparent 88%,rgba(200, 200, 200,0.07) 88%, rgba(200, 200, 200,0.07) 93%,transparent 93%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 83%,rgba(200, 200, 200,0.07) 83%, rgba(200, 200, 200,0.07) 91%,transparent 91%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 43%,rgba(200, 200, 200,0.07) 43%, rgba(200, 200, 200,0.07) 50%,transparent 50%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 16%,rgba(200, 200, 200,0.07) 16%, rgba(200, 200, 200,0.07) 56%,transparent 56%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+html,body{
+    max-width: 100%;
+    max-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 5px 15px;
+    box-shadow: 0 0 20px black,0 0 40px black ;
+}
+.navbar{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+#bar{
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    color: red;
+    display: none;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    right: 20px;
+    width: 200px;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 0%;
+    padding-right: 0%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px black,0 0 40px black;
+    display: none;
+}
+#cross{
+    padding: 5px;
+    border-radius: 90px;
+    border: 2px solid white;
+    color: red;
+    transform: rotate(90deg);
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.hire{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1a1a;
+    margin-top: 30px;
+}
+.thank,h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 2%;
+    margin-top: 3%;
+    text-align: center;
+}
+.lnk i{
+    margin-top: 15%;
+    margin-left: 70px;
+    font-size: 90px;
+    color: white;
+    text-shadow: 0 0 10px red,0 0 40px black;
+}
+.inline{
+    display: flex;
+}
+@media (max-width:321px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .contact{
+        font-size: 8px;
+    }
+    .hire{
+        height: 100px;
+    }
+    .inline{
+        display: grid;
+    }
+    .thank,h2{
+        font-size: 21px;
+    }
+    .lnk i{
+        margin-top: 10%;
+        font-size: 55px;
+    }
+}
+@media (min-width:321px) and (max-width:376px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .contact{
+        font-size: 9px;
+    }
+    .hire{
+        height: 100px;
+    }
+    .inline{
+        display: grid;
+    }
+    .thank,h2{
+        margin-left: 0%;
+        padding: 5px;
+        font-size: 21px;
+    }
+    .lnk i{
+        margin-left: 23%;
+        margin-top: 10%;
+        font-size: 65px;
+    }
+}
+@media (min-width:376px) and (max-width:426px){
+    .menu{
+        right: 0%;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav{
+        width: 115%;
+    }
+    #bar{
+        display: block;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .hire{
+        height: 100px;
+    }
+    .inline{
+        display: grid;
+    }
+    .thank,h2{
+        font-size: 25px;
+    }
+    .lnk i{
+        margin-top: 10%;
+        font-size: 55px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .hire{
+        height: 100px;
+    }
+    .inline{
+        display: grid;
+    }
+    .thank,h2{
+        font-size: 25px;
+    }
+    .lnk i{
+        margin-left: 22%;
+        margin-top: 10%;
+        font-size: 75px;
+    }
+}

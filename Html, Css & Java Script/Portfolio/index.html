@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="nav">
+        <a href="index.html"><h1>Portfo<span>lio</span></h1></a>
+        <i class="fa-solid fa-bars" id="bar" onclick=showSidebar() ></i>
+        <ul class="navbar">
+            <a href="index.html"><li>Home</li></a>
+            <a href="1.project.html"><li>Projects</li></a>
+            <a href="2.about.html"><li>About Me</li></a>
+            <a href="3.services.html"><li>Services</li></a>
+            <a href="4.contact.html"><li>Contact Us</li></a>
+        </ul>
+        <div class="menu">
+            <ul>
+                <i class="fa-solid fa-xmark" id="cross" onclick=closeSidebar() ></i>
+                <a href="index.html"><li>Home</li></a>
+                <a href="1.project.html"><li>Projects</li></a>
+                <a href="2.about.html"><li>About Me</li></a>
+                <a href="3.services.html"><li>Services</li></a>
+                <a href="4.contact.html"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="image">
+            <img src="Student.jpeg" alt="My Image">
+        </div>
+        <div class="data">
+                <span>
+                    <h5><span class="siz">Hello,</span>My name is</h5>
+                </span>
+                <span class="name"><h1 class="nam">Muhammad Abrash</h1></span>
+                <h4>I’m a practicing developer.</h4>
+        </div>
+        <div class="thanks">
+            <h3>
+                <span class="thank">Thanks</span> For visiting <br> My Portfo<span>lio</span>.
+            </h3>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

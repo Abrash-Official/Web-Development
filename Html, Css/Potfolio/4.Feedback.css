@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("4.Feedback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    height: 28px;
+    border: 0px solid white;
+    box-shadow: 0 0 10px black,0 0 15px black;
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#s-b{
+    color: skyblue;
+    text-shadow: 0 0 30px rgb(0, 183, 255),0 0 30px rgb(0, 183, 255);
+}
+a#s-b:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-o{
+    color: orange;
+    text-shadow: 0 0 30px rgb(180, 144, 99),0 0 30px rgb(180, 144, 99);
+}
+a#l-o:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-p{
+    color: rgb(250, 76, 250);
+    text-shadow: 0 0 30px purple,0 0 30px purple;
+}
+a#l-p:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+a#l-y{
+    color: yellow;
+    text-shadow: 0 0 30px yellow,0 0 30px yellow;
+}
+a#l-y:hover{
+    text-shadow: 0 0 30px black,0 0 30px black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+input.feedback{
+    width: 800px;
+    padding: 10px 10px 280px 10px;
+    background: transparent;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: aqua;
+    box-shadow: 0 0 20px black,0 0 40px blue;
+    font-size: larger;
+}
+button{
+    background-color: powderblue;
+    margin-left: 47%;
+    margin-top: 30px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px skyblue,0 0 30px skyblue;
+    text-shadow: 0 0 7px black,0 0 15px black;
+    font-weight: 700;
+}
+@media(max-width: 321px){
+    a{
+        font-size: medium;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    input.feedback{
+        margin-top: 50%;
+        width: 230px;
+        height: 10px;
+        padding-bottom: 100px;
+    }
+}
+@media(min-width: 321px) and (max-width: 376px){
+    a{
+        font-size: large;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    input.feedback{
+        margin-top: 50%;
+        width: 290px;
+        height: 40px;
+        padding-bottom: 100px;
+    }
+    button{
+        margin-left: 42%;
+    }
+}
+@media(min-width: 376px) and (max-width: 426px){
+    a{
+        font-size: large;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    body{
+        background-position-x: -100px;
+    }
+    input.feedback{
+        margin-top: 50%;
+        width: 290px;
+        height: 40px;
+        padding-bottom: 100px;
+    }
+    button{
+        margin-left: 42%;
+    }
+}
